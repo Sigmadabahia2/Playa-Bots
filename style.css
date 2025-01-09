@@ -1,0 +1,134 @@
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0a0a; /* Fundo escuro */
+    color: #fff; /* Texto branco */
+}
+
+/* Barra de navegação */
+header {
+    background-color: #111; /* Fundo escuro */
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    color: #fff; /* Cor branca para o nome da logo */
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Texto branco */
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a.active {
+    color: #5e6af6; /* Azul claro para o link ativo */
+}
+
+nav a:hover {
+    color: #5e6af6; /* Azul claro ao passar o mouse */
+}
+
+/* Seção Hero */
+.hero {
+    background-color: #1a1a1a; /* Fundo escuro */
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: #fff; /* Cor branca para o título */
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    color: #ddd; /* Cor cinza claro */
+}
+
+.cta-btn {
+    background-color: #5e6af6; /* Azul claro */
+    color: white;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.cta-btn:hover {
+    background-color: #4d5cd0; /* Azul escuro ao passar o mouse */
+}
+
+/* Seção de características com bolhas */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #1a1a1a;
+}
+
+.feature-bubble {
+    background-color: #222; /* Fundo escuro para as bolhas */
+    padding: 30px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 30%;
+    text-align: center;
+}
+
+.feature-bubble h2, .feature-bubble h3 {
+    color: #5e6af6; /* Azul claro */
+}
+
+.feature-bubble p {
+    font-size: 16px;
+    color: #ddd; /* Cor cinza claro */
+}
+
+/* Rodapé */
+footer {
+    background-color: #111; /* Fundo preto */
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    color: #fff; /* Cor branca para o texto */
+}
+
+footer .social a {
+    color: #5e6af6; /* Azul claro */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social a:hover {
+    color: #ffffff; /* Cor branca ao passar o mouse */
+}
